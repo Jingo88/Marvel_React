@@ -4,8 +4,8 @@ import Home from '../components/Home';
 
 const HomeContainer = React.createClass({
 	render(){
-		return(
-			<Home />
+		return (
+			<Home/>
 		)
 	}
 })
