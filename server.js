@@ -14,9 +14,6 @@ var api = require('marvel-api');
 var marvelpublickey = process.env.MARVELAPIPUBLIC
 var marvelprivatekey = process.env.MARVELAPIPRIVATE
 
-console.log(marvelprivatekey)
-console.log(marvelpublickey)
-
 var marvel = api.createClient({
 	publicKey: marvelpublickey,
 	privateKey: marvelprivatekey
